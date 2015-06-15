@@ -25,6 +25,8 @@ Version:   $$
 
 #include "vtkvmtkSurfaceProjectCellArray.h"
 
+#include <algorithm>
+
 #include "vtkCellLocator.h"
 #include "vtkDoubleArray.h"
 #include "vtkGenericCell.h"
